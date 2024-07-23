@@ -1,0 +1,66 @@
+body {
+    background-color:rgb(214, 230, 188);
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    margin-top: 5%;
+}
+
+#inputForm {
+    background-color: white;
+    padding: 0px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 100px brown;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px 0px;
+    border-bottom: 1px solid brown;
+    font-weight: bold;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+.delete {
+    font-weight: normal;
+    color: black;
+    cursor: pointer;
+    float: right;
+    border: 1px solid;
+    border-radius: 4px;
+    padding: 0.5px 5px;
+    transition-duration: 0.4s;
+}
+
+.delete:hover {
+    border: 1px solid brown;
+    background-color: brown;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    color: brown;
+}
+
+#add-todo {
+    background-color: rgb(228, 191, 191);
+    border-radius: 5px;
+    border: none;
+    padding: 2.5px 7px;
+    box-shadow: 0px 0px 0px 0px brown;
+    transition: 0.2s;
+    font-weight: bold;
+}
+
+#add-todo:hover {
+    /* margin-top: 2px; */
+    box-shadow: 0px 0px 0px 2.5px brown;
+}
