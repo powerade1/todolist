@@ -1,7 +1,7 @@
 const form = document.getElementById('inputForm');
 const todoInput = document.getElementById('todo-input');
 const dataList = document.getElementById('dataList');
-const savedData = JSON.parse(localStorage.getItem('userData') || []);
+const savedData = JSON.parse(localStorage.getItem('userData') || '[]');
 
 savedData.forEach(item => {
     addListItem(item);
